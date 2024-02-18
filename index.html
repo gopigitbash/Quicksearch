@@ -1,0 +1,364 @@
+<html>
+
+<head>
+    <title>search engine</title>
+    <meta name="viewport" content="width=device-width,initial-scale= 1.0">
+    <link rel="icon" type="image/x-icon" href="./Assets/Images/qs.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Styles/main.css">
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: rgb(29, 167, 17);
+            }
+
+            h1 {
+                font-size: 100%;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            a {
+                font-size: 100%;
+            }
+
+        }
+
+        /* @media only screen and (min-width: 600px) {
+            body {
+                background-color: rgb(17, 132, 167);
+            }
+        } */
+
+        /* @media only screen and (min-width: 768px) {
+            body {
+                background-color: rgb(140, 167, 17);
+            }
+        } */
+
+        /* @media only screen and (min-width: 992px) {
+            body {
+                background-color: rgb(167, 17, 110);
+            }
+        } */
+
+        /* @media only screen and (min-width: 1200px) {
+            body {
+                background-color: rgb(17, 27, 167);
+            }
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <a href="" class="heder11"><img src="./Assets/Images/qs.PNG" alt="" class="logomain"> </a>
+        <div class="subheader">
+            <a href="" class="header12">We are hiring</a>
+            <a href="" class="header12">Advertise</a>
+            <a href="" class="header12">Admin Panel</a>
+            <a href="" class="header12">Login / Register</a>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="secimg">
+        <h1 class="secimgh6">Fast, FREE way to get experts.</h1>
+        <div class="dropdown">
+            <div class="dropdown1">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-location-dot locsyb"
+                        style="color: #3f4042;"></i>Hyderabad</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Delhi</a>
+                    <a href="#about">Gujarath</a>
+                    <a href="#contact">Mumbai</a>
+                    <a href="#contact">Rajasthan</a>
+                    <a href="#contact">Goa</a>
+                </div>
+            </div>
+            <div>
+                <!-- <button class="btnser">Find Service Here</button> -->
+                <input type="text" class="btnser" placeholder="Find Service Here">
+            </div>
+            <div>
+                <button class="btnserbg">
+                    Get Experts
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="promotions">
+        <div>
+            <h2 class="prmh2">Education&Training</h2>
+            <a href=""><img src="./Assets/Images/img1.jpg" alt="" class="prmimgo"></a>
+            <div class="prmo1">
+                <p class="et1"><a href="">Entrance exam coaching</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img2.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="">Job Training</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img3.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="">Distance Education</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img4.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="" class="et1a">Overseas Education</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="promotions">
+        <div>
+            <h2 class="prmh2">Home Services</h2>
+            <a href=""><img src="./Assets/Images/img5.jpg" alt="" class="prmimgo"></a>
+            <div class="prmo1">
+                <p class="et1"><a href="">Domestic Help Services</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img6.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="">Home Appliances Repair & Service</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img7.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="">Furniture Dealers</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href=""><img src="./Assets/Images/img8.jpg" alt="" class="prmimg"></a>
+            <div class="prm1">
+                <p class="et1"><a href="">Distance Education</a>
+                </p>
+                <p class="et11">6327 Experts</p>
+                <div class="test">
+                    <a href="" class="test1">GET QUOTES</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="studyguide">
+        <h2 class="sgname"><a href="">Study Abroad Guide</a></h2>
+        <h4 class="sgsubname"><a href="">Top Country Guide, specially crafted for Indian students who aspire to study
+                abroad</a></h4>
+        <div class="well">
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/united-states-of-america-circle-flag.png" alt=""
+                        class="sgboximg"></a>
+                <p class="sgboxnameusa"><a href="">Study in USA</a></p>
+            </div>
+
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/united-kingdom-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameuk"><a href="">Study in UK</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/canada-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameca"><a href="">Study in Canada</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/australia-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameaus"><a href="">Study in Australia</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/germany-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameger"><a href="">Study in Germany</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/france-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnamefra"><a href="">Study in France</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/denmark-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameden"><a href="">Study in Denmark</a></p>
+            </div>
+            <div class="sgbox">
+                <a href=""><img src="./Assets/Images/italy-circle-flag.png" alt="" class="sgboximg"></a>
+                <p class="sgboxnameitl"><a href="">Study in Italy</a></p>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Footer -->
+    <div class="Footer">
+        <div class="subfooter">
+            <h4 class="footerheading">POPULAR LINKS</h4>
+            <div class="footernames1">
+                <a href="">AWS Training in Hyderabad</a>
+                <a href="">Java Training in Bangalore</a>
+                <a href="">.NET Training in Chennai</a>
+                <a href="">SalesForce Training in Hyderabad</a>
+                <a href="">Java Training in Bangalore</a>
+            </div>
+        </div>
+        <hr class="hrcls">
+        <div class="subfooter">
+            <h3 class="footerheading">CORPORATE</h3>
+            <div class="footernames">
+                <a href="">About us</a>
+                <a href="">Contact us</a>
+                <a href="">Careers</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+
+        <hr class="hrcls">
+        <div class="subfooter">
+            <h3 class="footerheading">TOP CITIES (INDIA)</h3>
+            <div class="footernames2">
+                <a href="">Hyderabad</a>
+                <a href="">Bangalore</a>
+                <a href="">Chennai</a>
+                <a href="">Delhi</a>
+                <a href="">Pune</a>
+            </div>
+        </div>
+        <hr class="hrcls">
+        <div class="subfooter">
+            <h3 class="footerheading">TOP CITIES (US)</h3>
+            <div class="footernames3">
+                <a href="">Austin</a>
+                <a href="">Atlanta</a>
+                <a href="">Bay Area</a>
+                <a href="">Boston</a>
+                <a href="">Chicago</a>
+            </div>
+
+        </div>
+        <hr class="hrcls">
+        <div class="subfooter">
+            <h3 class="footerheading">SULEKHA DOMAINS</h3>
+            <div class="footernames">
+                <a href="">Property</a>
+                <a href="">Rentals</a>
+                <a href="">Home services</a>
+                <a href="">Office services</a>
+                <a href="">Study Abroad</a>
+            </div>
+
+        </div>
+        <hr class="hrcls">
+
+
+        <div class="footersocial">
+            <h6 class="footerbottom">© 2023 Copyright Sulekha.com. All Rights Reserved.</h6>
+
+            <div class="max">
+                <a href="" class="socialiconinsta"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div class="max">
+                <a href="" class="socialicontwit"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="max">
+                <a href="" class="socialiconfb"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="max">
+                <a href="" class="socialiconpt"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div class="max">
+                <a href="" class="socialiconli"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="max">
+                <a href="" class="socialiconyt"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
